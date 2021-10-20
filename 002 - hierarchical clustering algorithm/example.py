@@ -1,7 +1,7 @@
 import numpy as np
 import random
 import math
-from matplotlib import pyplot as plt, colors as mcolors
+from matplotlib import pyplot as plt
 from sklearn.datasets import make_blobs
 
 # Blob parameters
