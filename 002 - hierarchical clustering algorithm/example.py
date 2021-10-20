@@ -6,9 +6,9 @@ from sklearn.datasets import make_blobs
 
 # Blob parameters
 NUMBER_OF_SAMPLES = 500
-NUMBER_OF_CLUSTERS = 10
+NUMBER_OF_CLUSTERS = 5
 CLUSTER_CENTERS = [(random.random(), random.random()) for _ in range(NUMBER_OF_CLUSTERS)]
-CLUSTER_STD = 0.025
+CLUSTER_STD = 0.05
 
 # Generate data
 data_points, labels_data_points = make_blobs(   n_samples=NUMBER_OF_SAMPLES, 
