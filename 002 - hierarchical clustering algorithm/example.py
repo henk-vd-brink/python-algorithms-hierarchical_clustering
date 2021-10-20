@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 from sklearn.datasets import make_blobs
 
 # Blob parameters
-NUMBER_OF_SAMPLES = 500
+NUMBER_OF_SAMPLES = 600
 NUMBER_OF_CLUSTERS = 5
 CLUSTER_CENTERS = [(random.random(), random.random()) for _ in range(NUMBER_OF_CLUSTERS)]
 CLUSTER_STD = 0.05
