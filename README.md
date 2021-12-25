@@ -1,1 +1,1 @@
-# python-ml
+# python-algorithms
